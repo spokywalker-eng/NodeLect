@@ -1,18 +1,14 @@
-console.log("Hello World");
+
 function first(){
     second();
-    console.log("First");
+    console.log("첫 번째");
 }
 function second(){
     third();
-    console.log("Second");
+    console.log("두 번째");
 }
 function third(){
-    console.log("Third");
-}
-function run(){
-    console.log("3초");
-}
 
-setTimeout(run, 3000);
+    console.log("세 번째");
+}
 first();
